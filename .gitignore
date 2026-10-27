@@ -1,0 +1,179 @@
+# ==============================================================================
+# PYTHON
+# ==============================================================================
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv
+
+# Archivos de instalación de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# ==============================================================================
+# ENTORNOS DE DESARROLLO / IDEs
+# ==============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*#
+.\#*
+
+# ==============================================================================
+# SISTEMA OPERATIVO
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==============================================================================
+# ARCHIVOS TEMPORALES Y LOGS
+# ==============================================================================
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Archivos de datos temporales
+*.sqlite
+*.db
+
+# ==============================================================================
+# CONFIGURACIONES LOCALES
+# ==============================================================================
+
+# Configuraciones locales del proyecto
+.local/
+*.local
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# ==============================================================================
+# OTROS
+# ==============================================================================
+
+# Archivos de configuración de IPython
+profile_default/
+ipython_config.py
+
+# Archivos de mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Archivos de ruff
+.ruff_cache/
+
+# Archivos de black
+.black/
+
+# Archivos de flake8
+.flake8
+
+# Archivos de pylint
+.pylint.d/
+
+# ==============================================================================
+# ESPECÍFICOS DEL PROYECTO
+# ==============================================================================
+
+# Archivos de notas personales
+NOTAS.md
+TODO.md
+
+# Archivos de prueba temporales
+test_*.py
+*_test.py
